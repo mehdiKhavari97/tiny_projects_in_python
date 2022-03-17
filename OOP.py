@@ -67,7 +67,8 @@ class Employee:
         self.lpt = self.Laptop()
 
     def show(self):
-        print(self.name, self.age, self.salary, self.lpt.show())
+        print(self.name, self.age, self.salary)
+        self.lpt.show()
 
 
 
